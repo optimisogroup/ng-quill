@@ -3,8 +3,8 @@
   "version": "4.0.0",
   "description": "Angular component for the Quill Rich Text Editor",
   "author": "Bengt Weiße <bengtler@gmail.com>",
-  "homepage": "https://github.com/KillerCodeMonkey/ngQuill",
-  "main": "dist/ng-quill.js",
+  "homepage": "https://github.com/pierluca/ng-quill",
+  "main": "src/ng-quill.js",
   "devDependencies": {
     "angular": "^1.7.5",
     "angular-mocks": "^1.7.5",
@@ -28,17 +28,14 @@
     "angular-sanitize": "^1.5.3"
   },
   "scripts": {
-    "build": "rimraf dist && mkdir dist && cp src/ng-quill.js dist/ && cat dist/ng-quill.js | uglifyjs > dist/ng-quill.min.js && echo \";\" >> dist/ng-quill.js",
-    "prepare": "npm run test && npm run build",
-    "test": "karma start"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KillerCodeMonkey/ngQuill"
+    "url": "https://github.com/pierluca/ng-quill"
   },
   "bugs": {
-    "url": "https://github.com/KillerCodeMonkey/ngQuill/issues"
+    "url": "https://github.com/pierluca/ng-quill/issues"
   },
   "keywords": [
     "editor",
